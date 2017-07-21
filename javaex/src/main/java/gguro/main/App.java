@@ -1,6 +1,6 @@
 package gguro.main;
 
-import gguro.javaex.calendar.CalendarEx8;
+import gguro.log4j.LoggerTest;
 
 /**
  * Hello world!
@@ -23,7 +23,8 @@ public class App
 //    	CalendarEx5 target = new CalendarEx5();
     	//CalendarEx6 target = new CalendarEx6();
     	//CalendarEx7 target = new CalendarEx7();
-    	CalendarEx8 target = new CalendarEx8();
+    	//CalendarEx8 target = new CalendarEx8();
+    	LoggerTest target = new LoggerTest();
         
         target.test();
         
