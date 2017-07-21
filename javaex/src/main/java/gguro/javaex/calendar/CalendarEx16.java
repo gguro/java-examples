@@ -12,12 +12,14 @@ import gguro.common.Testable;
  * 
  */
 
-/*
- * Expected results ---------------- Default format of LocalDate=2016-09-16
- * 16::Sep::2016 Default format of LocalDateTime=2016-09-16T11:46:01.455
- * 16::Sep::2016 11::46::01 Default format of Instant=2016-09-16T06:16:01.456Z
- * Default format after parsing = 2014-04-27T21:39:48
- */
+// ----------------
+// Expected results 
+// ---------------- 
+// Default format of LocalDate=2016-09-16
+// 16::Sep::2016 Default format of LocalDateTime=2016-09-16T11:46:01.455
+// 16::Sep::2016 11::46::01 Default format of Instant=2016-09-16T06:16:01.456Z
+// Default format after parsing = 2014-04-27T21:39:48
+// ----------------
 
 public class CalendarEx16 implements Testable {
 
