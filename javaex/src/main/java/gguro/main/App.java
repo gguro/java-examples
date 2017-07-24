@@ -1,6 +1,6 @@
 package gguro.main;
 
-import gguro.log4j.LoggerTest;
+import gguro.collections.PriorityQueueEx1;
 
 /**
  * Hello world!
@@ -24,7 +24,14 @@ public class App
     	//CalendarEx6 target = new CalendarEx6();
     	//CalendarEx7 target = new CalendarEx7();
     	//CalendarEx8 target = new CalendarEx8();
-    	LoggerTest target = new LoggerTest();
+    	//LoggerTest target = new LoggerTest();
+    	//ListEx1 target = new ListEx1();
+    	//ListEx2 target = new ListEx2();
+    	//MapEx1 target = new MapEx1();
+    	//MapEx2 target = new MapEx2();
+    	//DequeEx2 target = new DequeEx2();
+    	//DequeEx2 target = new DequeEx2();
+    	PriorityQueueEx1 target = new PriorityQueueEx1();
         
         target.test();
         
