@@ -1,6 +1,9 @@
 package gguro.main;
 
+import gguro.collections.CopyConstructEx;
 import gguro.collections.PriorityQueueEx1;
+import gguro.exceptions.CustomExceptionEx1;
+import gguro.exceptions.RecursiveExceptionEx1;
 
 /**
  * Hello world!
@@ -31,7 +34,10 @@ public class App
     	//MapEx2 target = new MapEx2();
     	//DequeEx2 target = new DequeEx2();
     	//DequeEx2 target = new DequeEx2();
-    	PriorityQueueEx1 target = new PriorityQueueEx1();
+    	//PriorityQueueEx1 target = new PriorityQueueEx1();
+    	//CustomExceptionEx1 target = new CustomExceptionEx1();
+    	//CopyConstructEx target = new CopyConstructEx();
+    	RecursiveExceptionEx1 target = new RecursiveExceptionEx1();
         
         target.test();
         
