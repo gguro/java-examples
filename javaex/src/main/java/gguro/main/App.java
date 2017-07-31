@@ -1,6 +1,10 @@
 package gguro.main;
 
 import gguro.fileio2.*;
+import gguro.serialize.DeSerializeEx1;
+import gguro.serialize.DeSerializeEx2;
+import gguro.serialize.SerializeEx1;
+import gguro.serialize.SerializeEx2;
 
 /**
  * Hello world!
@@ -36,8 +40,13 @@ public class App
     	//CopyConstructEx target = new CopyConstructEx();
     	//RecursiveExceptionEx1 target = new RecursiveExceptionEx1();
     	//FilePathEx1 target = new FilePathEx1();
+    	//FileClassEx1 target = new FileClassEx1();
+    	//SerializeEx1 target = new SerializeEx1();
+    	//DeSerializeEx1 target = new DeSerializeEx1();
+    	//SerializeEx2 target = new SerializeEx2();
+    	DeSerializeEx2 target = new DeSerializeEx2();
     	
-    	FileClassEx1 target = new FileClassEx1();
+    	
         target.test();
         
     }
