@@ -1,6 +1,10 @@
 package gguro.main;
 
 import gguro.fileio2.*;
+import gguro.network.InetAddressEx1;
+import gguro.network.PortScannerEx1;
+import gguro.properties.PropertiesEx1;
+import gguro.properties.PropertiesEx2;
 import gguro.serialize.DeSerializeEx1;
 import gguro.serialize.DeSerializeEx2;
 import gguro.serialize.SerializeEx1;
@@ -44,7 +48,12 @@ public class App
     	//SerializeEx1 target = new SerializeEx1();
     	//DeSerializeEx1 target = new DeSerializeEx1();
     	//SerializeEx2 target = new SerializeEx2();
-    	DeSerializeEx2 target = new DeSerializeEx2();
+    	//DeSerializeEx2 target = new DeSerializeEx2();
+    	//PrintWriterEx1 target = new PrintWriterEx1();
+    	//PropertiesEx1 target = new PropertiesEx1();
+    	//PropertiesEx2 target = new PropertiesEx2();
+    	//InetAddressEx1 target = new InetAddressEx1();
+    	PortScannerEx1 target = new PortScannerEx1();
     	
     	
         target.test();
