@@ -9,6 +9,7 @@ import gguro.serialize.DeSerializeEx1;
 import gguro.serialize.DeSerializeEx2;
 import gguro.serialize.SerializeEx1;
 import gguro.serialize.SerializeEx2;
+import gguro.thread.ThreadTest;
 
 /**
  * Hello world!
@@ -53,8 +54,8 @@ public class App
     	//PropertiesEx1 target = new PropertiesEx1();
     	//PropertiesEx2 target = new PropertiesEx2();
     	//InetAddressEx1 target = new InetAddressEx1();
-    	PortScannerEx1 target = new PortScannerEx1();
-    	
+    	//PortScannerEx1 target = new PortScannerEx1();
+    	ThreadTest target = new ThreadTest();
     	
         target.test();
         
